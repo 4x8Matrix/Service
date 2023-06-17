@@ -1,6 +1,6 @@
 [package]
 name = "4x8matrix/service"
-version = "1.0.0"
+version = "1.0.1"
 realm = "shared"
 registry = "https://github.com/upliftgames/wally-index"
 licence = "Unlicense"
@@ -11,9 +11,9 @@ description = "An 'Service' that represents a top-level client-sided singleton, 
 exclude = ["**"]
 include = ["Source", "Source/*", "default.project.json", "wally.lock", "wally.toml", "LICENCE", "README.md"]
 
-[dev-dependencies]
-TestEz = "roblox/testez@0.4.1"
-EmoticonReporter = "4x8matrix/emoticon-reporter@1.0.0"
+# [dev-dependencies]
+# TestEz = "roblox/testez@0.4.1"
+# EmoticonReporter = "4x8matrix/emoticon-reporter@1.0.0"
 
 [dependencies]
 Console = "4x8matrix/console@2.0.2"
